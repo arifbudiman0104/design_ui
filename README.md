@@ -1,6 +1,6 @@
-# design_ui
+# MULTIMEDIA DESIGN
 
-A new Flutter project.
+THIS IS PROJECT MULTIMEDIA DESIGN
 
 ## Getting Started
 
