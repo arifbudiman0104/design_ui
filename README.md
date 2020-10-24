@@ -1,6 +1,7 @@
 # MULTIMEDIA DESIGN
 
-THIS IS PROJECT MULTIMEDIA DESIGN
+This is Multimedia Design Project.
+A3M Group.
 
 ## Getting Started
 
