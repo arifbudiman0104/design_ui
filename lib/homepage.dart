@@ -1,3 +1,4 @@
+import 'package:design_ui/informationpage/introductionPage.dart';
 import 'package:design_ui/widget/reusablewidget.dart';
 import 'package:flutter/material.dart';
 
@@ -58,7 +59,40 @@ class Homepage extends StatelessWidget {
                   child: SingleChildScrollView(
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [Information()],
+                      children: [
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Information(
+                              informationtitle: 'Introduction',
+                              totalcourse: '7 course',
+                              description: 'bla bla lba',
+                              informationpage: IntroductionPage(),
+                            ),
+                            SizedBox(height: 10),
+                            Information(
+                              informationtitle: 'Explanation Tools',
+                              totalcourse: '3 course',
+                              description: 'bla bla lba',
+                              informationpage: IntroductionPage(),
+                            ),
+                            SizedBox(height: 10),
+                            Information(
+                              informationtitle: 'Practicing',
+                              totalcourse: '7 course',
+                              description: 'bla bla lba',
+                              informationpage: IntroductionPage(),
+                            ),
+                            SizedBox(height: 10),
+                            Information(
+                              informationtitle: 'Upload',
+                              totalcourse: '7 course',
+                              description: 'bla bla lba',
+                              informationpage: IntroductionPage(),
+                            )
+                          ],
+                        ),
+                      ],
                     ),
                   ),
                 )

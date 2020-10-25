@@ -1,14 +1,21 @@
-import 'package:design_ui/informationpage/introductionPage.dart';
 import 'package:flutter/material.dart';
 
 class Information extends StatelessWidget {
+  Information(
+      {@required this.informationtitle,
+      @required this.totalcourse,
+      @required this.description,
+      @required this.informationpage});
+  final String informationtitle, totalcourse, description;
+  final Widget informationpage;
+
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => (IntroductionPage())),
+          MaterialPageRoute(builder: (context) => (informationpage)),
         );
       },
       child: Container(
@@ -17,15 +24,14 @@ class Information extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              "Introduction",
+              informationtitle,
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
-            Text("7 Course"),
+            Text(totalcourse),
             SizedBox(
               height: 10,
             ),
-            Text(
-                "You will learn about UI, the purpose UI Design, \nhow to Design, etc"),
+            Text(description),
           ],
         ),
         decoration: BoxDecoration(
