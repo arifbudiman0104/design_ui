@@ -14,6 +14,7 @@ class Information extends StatelessWidget {
     return InkWell(
       child: Container(
         width: 330,
+        //width: MediaQuery.of(context).size.width * 0.80,
         padding: EdgeInsets.only(top: 20, left: 20, right: 20, bottom: 10),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
