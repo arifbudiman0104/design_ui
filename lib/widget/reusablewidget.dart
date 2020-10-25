@@ -12,13 +12,8 @@ class Information extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => (informationpage)),
-        );
-      },
       child: Container(
+        width: 330,
         padding: EdgeInsets.only(top: 20, left: 20, right: 20, bottom: 10),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -39,6 +34,12 @@ class Information extends StatelessWidget {
           borderRadius: BorderRadius.all(Radius.circular(10)),
         ),
       ),
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => (informationpage)),
+        );
+      },
     );
   }
 }
