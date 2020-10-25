@@ -8,7 +8,7 @@ class PracticingPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        padding: EdgeInsets.only(top: 40, left: 30, right: 30),
+        padding: EdgeInsets.only(top: 40, left: 15, right: 15),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [

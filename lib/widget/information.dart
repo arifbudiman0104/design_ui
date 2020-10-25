@@ -19,8 +19,8 @@ class Information extends StatelessWidget {
         );
       },
       child: Container(
-        width: 330,
-        //width: MediaQuery.of(context).size.width * 0.80,
+        width: 350,
+        //width: MediaQuery.of(context).size.width * 0.85,
         padding: EdgeInsets.only(top: 20, left: 20, right: 20, bottom: 10),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,

@@ -26,6 +26,7 @@ class Content extends StatelessWidget {
         ),
         padding: EdgeInsets.only(top: 10, left: 10, right: 10, bottom: 10),
         child: Row(
+          
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -39,7 +40,7 @@ class Content extends StatelessWidget {
               width: 10,
             ),
             Container(
-              width: 220,
+              width: 250,
               child: Text(contenttitle,
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
             ),
