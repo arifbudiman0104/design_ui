@@ -77,7 +77,7 @@ class Homepage extends StatelessWidget {
                         SizedBox(height: 20),
                         Information(
                           informationtitle: 'Explanation Tools',
-                          totalcourse: '3 course',
+                          totalcourse: '4 course',
                           description:
                               'You will learn Adobe XD, design, tools, etc.',
                           informationpage: ExplanationPage(),

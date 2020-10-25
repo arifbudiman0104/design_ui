@@ -35,7 +35,7 @@ class IntroductionPage extends StatelessWidget {
                           width: 25,
                         ),
                         Text(
-                          " Introduction",
+                          "Introduction",
                           style: TextStyle(
                             //backgroundColor: Colors.blue,
                             fontSize: 20,
