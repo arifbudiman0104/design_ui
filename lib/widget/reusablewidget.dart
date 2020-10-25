@@ -12,6 +12,12 @@ class Information extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => (informationpage)),
+        );
+      },
       child: Container(
         width: 330,
         //width: MediaQuery.of(context).size.width * 0.80,
@@ -35,12 +41,6 @@ class Information extends StatelessWidget {
           borderRadius: BorderRadius.all(Radius.circular(10)),
         ),
       ),
-      onTap: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => (informationpage)),
-        );
-      },
     );
   }
 }
