@@ -38,7 +38,7 @@ class Information extends StatelessWidget {
         ),
         decoration: BoxDecoration(
           color: Colors.black12,
-          borderRadius: BorderRadius.all(Radius.circular(10)),
+          borderRadius: BorderRadius.all(Radius.circular(15)),
         ),
       ),
     );

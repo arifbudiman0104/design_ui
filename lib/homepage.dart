@@ -1,5 +1,8 @@
-import 'package:design_ui/informationpage/introductionPage.dart';
-import 'package:design_ui/widget/reusablewidget.dart';
+import 'package:design_ui/informationpage/explanationpage.dart';
+import 'package:design_ui/informationpage/introductionpage.dart';
+import 'package:design_ui/informationpage/practicingpage.dart';
+import 'package:design_ui/informationpage/uploadpage.dart';
+import 'package:design_ui/widget/information.dart';
 import 'package:flutter/material.dart';
 
 class Homepage extends StatelessWidget {
@@ -7,7 +10,7 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        padding: EdgeInsets.only(top: 40, left: 30, right: 30),
+        padding: EdgeInsets.only(top: 50, left: 30, right: 30),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -17,9 +20,6 @@ class Homepage extends StatelessWidget {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    SizedBox(
-                      height: 20,
-                    ),
                     Text(
                       "Arif Budiman Arrosyid",
                       style: TextStyle(
@@ -80,7 +80,7 @@ class Homepage extends StatelessWidget {
                           totalcourse: '3 course',
                           description:
                               'You will learn Adobe XD, design, tools, etc.',
-                          informationpage: IntroductionPage(),
+                          informationpage: ExplanationPage(),
                         ),
                         SizedBox(height: 20),
                         Information(
@@ -88,14 +88,14 @@ class Homepage extends StatelessWidget {
                           totalcourse: '1 course',
                           description:
                               'You will pcartice and follow the step from the video',
-                          informationpage: IntroductionPage(),
+                          informationpage: PracticingPage(),
                         ),
                         SizedBox(height: 20),
                         Information(
                           informationtitle: 'Upload',
                           totalcourse: '1 course',
                           description: 'You will upload the project here',
-                          informationpage: IntroductionPage(),
+                          informationpage: UploadPage(),
                         )
                       ],
                     ),

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class WhatsIsUI extends StatelessWidget {
+class Intro2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("What is UI?"),
+        title: Text(" Intro 2?"),
       ),
       body: Container(
         child: Container(
