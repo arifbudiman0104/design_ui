@@ -1,3 +1,4 @@
+import 'package:design_ui/widget/reusablewidget.dart';
 import 'package:flutter/material.dart';
 
 class Homepage extends StatelessWidget {
@@ -23,7 +24,7 @@ class Homepage extends StatelessWidget {
                             //backgroundColor: Colors.blue,
                             fontSize: 20,
                             color: Colors.black,
-                            fontWeight: FontWeight.normal,
+                            fontWeight: FontWeight.bold,
                           ),
                         ),
                         Text(
@@ -50,6 +51,17 @@ class Homepage extends StatelessWidget {
                   style: TextStyle(
                       fontSize: 15, height: 1.3, fontWeight: FontWeight.w700),
                 ),
+                SizedBox(
+                  height: 10,
+                ),
+                Expanded(
+                  child: SingleChildScrollView(
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [Information()],
+                    ),
+                  ),
+                )
               ],
             ),
           ),
