@@ -40,7 +40,7 @@ class Content extends StatelessWidget {
               width: 10,
             ),
             Container(
-              width: 250,
+              width: 220,
               child: Text(contenttitle,
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
             ),
