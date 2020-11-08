@@ -22,7 +22,7 @@ class Homepage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      "Musafak",
+                      "Arif Budiman Arrosyid",
                       style: TextStyle(
                         //backgroundColor: Colors.blue,
                         fontSize: 20,
