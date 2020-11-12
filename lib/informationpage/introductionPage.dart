@@ -130,13 +130,13 @@ class IntroductionPage extends StatelessWidget {
                         SizedBox(
                           height: 10,
                         ),
-                        Content(
-                          number: "06",
-                          contenttitle:
-                              "What is the app usually use for UI Design?",
-                          time: "05:00",
-                          contentpage: Intro6(),
-                        ),
+                        // Content(
+                        //   number: "06",
+                        //   contenttitle:
+                        //       "What is the app usually use for UI Design?",
+                        //   time: "05:00",
+                        //   contentpage: Intro6(),
+                        // ),
                       ],
                     ),
                   ],

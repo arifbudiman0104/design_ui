@@ -7,8 +7,7 @@ class Intro5 extends StatefulWidget {
 }
 
 class _Intro5State extends State<Intro5> {
-  String videoURL =
-      "https://www.youtube.com/watch?v=PSoPr9ccogI&t=1302s&ab_channel=ArifBudiman";
+  String videoURL = "https://youtu.be/ywy_bn86jAU";
   YoutubePlayerController _controller;
   @override
   void initState() {
