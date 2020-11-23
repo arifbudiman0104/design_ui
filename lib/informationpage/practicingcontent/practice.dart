@@ -7,8 +7,7 @@ class Practice extends StatefulWidget {
 }
 
 class _PracticeState extends State<Practice> {
-  String videoURL =
-      "https://www.youtube.com/watch?v=PSoPr9ccogI&t=1302s&ab_channel=ArifBudiman";
+  String videoURL = "https://youtu.be/WoQebwW1Xrs";
   YoutubePlayerController _controller;
   @override
   void initState() {
