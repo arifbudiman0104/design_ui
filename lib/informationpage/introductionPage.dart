@@ -35,7 +35,7 @@ class IntroductionPage extends StatelessWidget {
                           width: 25,
                         ),
                         Text(
-                          "Introduction",
+                          "Pengantar",
                           style: TextStyle(
                             //backgroundColor: Colors.blue,
                             fontSize: 20,
@@ -49,7 +49,7 @@ class IntroductionPage extends StatelessWidget {
                       height: 20,
                     ),
                     Text(
-                      "7 Course",
+                      "5 Vidio Materi",
                       style: TextStyle(
                           fontSize: 15,
                           color: Colors.black,
@@ -59,7 +59,7 @@ class IntroductionPage extends StatelessWidget {
                       height: 5,
                     ),
                     Text(
-                      "You will learn about UI, the purpose UI \nDesign, how to design, etc.",
+                      "Anda akan belajar tentang UI, \ntujuan Desain UI, cara mendesain",
                       style: TextStyle(fontSize: 15, color: Colors.black),
                     ),
                   ],
@@ -70,7 +70,7 @@ class IntroductionPage extends StatelessWidget {
               height: 30,
             ),
             Text(
-              'Course Content',
+              'Vidio Pelatihan',
               style: TextStyle(
                   fontSize: 15, height: 1.3, fontWeight: FontWeight.w700),
             ),
@@ -106,7 +106,7 @@ class IntroductionPage extends StatelessWidget {
                         Content(
                           number: "03",
                           contenttitle: "Aplikasi apa saja yang bisa digunakan untuk mendesain UI?",
-                          time: "1:40",
+                          time: "01:40",
                           contentpage: Intro3(),
                         ),
                         SizedBox(

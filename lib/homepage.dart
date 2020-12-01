@@ -53,7 +53,7 @@ class Homepage extends StatelessWidget {
               height: 30,
             ),
             Text(
-              'Lets learn about UI Design',
+              'Mari pelajari tentang Desain UI',
               style: TextStyle(
                   fontSize: 15, height: 1.3, fontWeight: FontWeight.w700),
             ),
@@ -69,10 +69,10 @@ class Homepage extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Information(
-                          informationtitle: 'Introduction',
-                          totalcourse: '7 course',
+                          informationtitle: 'Pengantar',
+                          totalcourse: '5 Vidio',
                           description:
-                              'You will learn about UI, the purpose of UI Design, how to design',
+                              'Anda akan belajar tentang UI, tujuan Desain UI, cara mendesain',
                           informationpage: IntroductionPage(),
                         ),
                         SizedBox(height: 20),
