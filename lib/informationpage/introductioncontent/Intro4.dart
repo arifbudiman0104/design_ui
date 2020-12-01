@@ -42,7 +42,7 @@ class _Intro4State extends State<Intro4> {
                           width: 25,
                         ),
                         Text(
-                          "What is the guide?",
+                          "Panduan yang bisa dipakai \ndalam mendesain mobile UI?",
                           style: TextStyle(
                             //backgroundColor: Colors.blue,
                             fontSize: 20,
@@ -76,7 +76,7 @@ class _Intro4State extends State<Intro4> {
                     SizedBox(
                       height: 10,
                     ),
-                    Text("What is the guide?"),
+                    Text("Panduan yang bisa dipakai \ndalam mendesain mobile UI?"),
                   ],
                 ),
               ),

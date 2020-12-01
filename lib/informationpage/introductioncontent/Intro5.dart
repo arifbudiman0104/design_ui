@@ -42,7 +42,7 @@ class _Intro5State extends State<Intro5> {
                           width: 25,
                         ),
                         Text(
-                          "What is prototyping?",
+                          "Apa itu prototyping?",
                           style: TextStyle(
                             //backgroundColor: Colors.blue,
                             fontSize: 20,
@@ -76,7 +76,7 @@ class _Intro5State extends State<Intro5> {
                     SizedBox(
                       height: 10,
                     ),
-                    Text("What is Prototyping?"),
+                    Text("Apa itu prototyping?"),
                   ],
                 ),
               ),

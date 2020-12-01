@@ -42,7 +42,7 @@ class _Intro3State extends State<Intro3> {
                           width: 25,
                         ),
                         Text(
-                          "How to design?",
+                          "Aplikasi apa saja yang bisa \ndigunakan untuk \nmendesain UI?",
                           style: TextStyle(
                             //backgroundColor: Colors.blue,
                             fontSize: 20,
@@ -76,7 +76,7 @@ class _Intro3State extends State<Intro3> {
                     SizedBox(
                       height: 10,
                     ),
-                    Text("How to design?"),
+                    Text("Aplikasi apa saja yang bisa \ndigunakan untuk \nmendesain UI?"),
                   ],
                 ),
               ),
