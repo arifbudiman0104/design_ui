@@ -7,8 +7,7 @@ class Exp3 extends StatefulWidget {
 }
 
 class _Exp3State extends State<Exp3> {
-  String videoURL =
-      "https://www.youtube.com/watch?v=PSoPr9ccogI&t=1302s&ab_channel=ArifBudiman";
+  String videoURL = "https://youtu.be/kx9xuDPCpRE";
   YoutubePlayerController _controller;
   @override
   void initState() {
@@ -43,7 +42,7 @@ class _Exp3State extends State<Exp3> {
                           width: 25,
                         ),
                         Text(
-                          "Adobe Tools",
+                          "Design: Icon, Text, Color",
                           style: TextStyle(
                             //backgroundColor: Colors.blue,
                             fontSize: 16,
