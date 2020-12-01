@@ -42,7 +42,7 @@ class _Intro1State extends State<Intro1> {
                           width: 25,
                         ),
                         Text(
-                          "What is UI?",
+                          "Apa itu UI?",
                           style: TextStyle(
                             //backgroundColor: Colors.blue,
                             fontSize: 20,
@@ -76,7 +76,7 @@ class _Intro1State extends State<Intro1> {
                     SizedBox(
                       height: 10,
                     ),
-                    Text("What is UI"),
+                    Text("Apa itu UI?"),
                   ],
                 ),
               ),

@@ -87,7 +87,7 @@ class IntroductionPage extends StatelessWidget {
                       children: [
                         Content(
                           number: "01",
-                          contenttitle: "What is UI?",
+                          contenttitle: "Apa itu UI?",
                           time: "02:18",
                           contentpage: Intro1(),
                         ),
@@ -96,8 +96,8 @@ class IntroductionPage extends StatelessWidget {
                         ),
                         Content(
                           number: "02",
-                          contenttitle: "The purpose of UI",
-                          time: "03:30",
+                          contenttitle: "Apakah tujuan desain UI?",
+                          time: "01:16",
                           contentpage: Intro2(),
                         ),
                         SizedBox(
@@ -105,8 +105,8 @@ class IntroductionPage extends StatelessWidget {
                         ),
                         Content(
                           number: "03",
-                          contenttitle: "How to design?",
-                          time: "07:29",
+                          contenttitle: "Aplikasi apa saja yang bisa digunakan untuk mendesain UI?",
+                          time: "1:40",
                           contentpage: Intro3(),
                         ),
                         SizedBox(
@@ -114,8 +114,8 @@ class IntroductionPage extends StatelessWidget {
                         ),
                         Content(
                           number: "04",
-                          contenttitle: "What is the guide?",
-                          time: "09:05",
+                          contenttitle: "Panduan yang bisa dipakai dalam mendesain mobile UI?",
+                          time: "01:20",
                           contentpage: Intro4(),
                         ),
                         SizedBox(
@@ -123,8 +123,8 @@ class IntroductionPage extends StatelessWidget {
                         ),
                         Content(
                           number: "05",
-                          contenttitle: "What is prototyping?",
-                          time: "05:15",
+                          contenttitle: "Apa itu prototyping?",
+                          time: "01:26",
                           contentpage: Intro5(),
                         ),
                         SizedBox(
