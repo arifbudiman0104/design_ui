@@ -42,7 +42,7 @@ class _Exp2State extends State<Exp2> {
                           width: 25,
                         ),
                         Text(
-                          "Design: Icon, Text, Color",
+                          "Adobe Tools",
                           style: TextStyle(
                             //backgroundColor: Colors.blue,
                             fontSize: 16,
