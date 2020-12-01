@@ -88,7 +88,7 @@ class IntroductionPage extends StatelessWidget {
                         Content(
                           number: "01",
                           contenttitle: "What is UI?",
-                          time: "05:00",
+                          time: "02:18",
                           contentpage: Intro1(),
                         ),
                         SizedBox(

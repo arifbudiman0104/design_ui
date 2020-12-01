@@ -22,7 +22,7 @@ class Homepage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      "Musafak",
+                      "Arif Budiman Arrosyid",
                       style: TextStyle(
                         //backgroundColor: Colors.blue,
                         fontSize: 20,
@@ -34,7 +34,7 @@ class Homepage extends StatelessWidget {
                       height: 5,
                     ),
                     Text(
-                      "Welcome to Adobe XD Course",
+                      "Selamat datang di pelatihan UI Desain Mobile App",
                       style: TextStyle(fontSize: 12, color: Colors.black),
                     ),
                   ],
