@@ -7,8 +7,7 @@ class Exp2 extends StatefulWidget {
 }
 
 class _Exp2State extends State<Exp2> {
-  String videoURL =
-      "https://www.youtube.com/watch?v=PSoPr9ccogI&t=1302s&ab_channel=ArifBudiman";
+  String videoURL = "https://youtu.be/GzkpQL8mYQY";
   YoutubePlayerController _controller;
   @override
   void initState() {
