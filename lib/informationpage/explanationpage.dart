@@ -2,6 +2,7 @@ import 'package:design_ui/informationpage/explanationcontent/exp1.dart';
 import 'package:design_ui/informationpage/explanationcontent/exp2.dart';
 import 'package:design_ui/informationpage/explanationcontent/exp3.dart';
 import 'package:design_ui/informationpage/explanationcontent/exp4.dart';
+import 'package:design_ui/informationpage/explanationcontent/exp5.dart';
 import 'package:design_ui/widget/content.dart';
 import 'package:flutter/material.dart';
 
@@ -114,6 +115,15 @@ class ExplanationPage extends StatelessWidget {
                           contenttitle: "Tips design",
                           time: "09:05",
                           contentpage: Exp4(),
+                        ),
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Content(
+                          number: "05",
+                          contenttitle: "How to Prototyping?",
+                          time: "09:05",
+                          contentpage: Exp5(),
                         ),
                       ],
                     ),
