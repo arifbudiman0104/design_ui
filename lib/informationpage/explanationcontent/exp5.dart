@@ -42,7 +42,7 @@ class _Exp5State extends State<Exp5> {
                           width: 25,
                         ),
                         Text(
-                          "Cara Protoyping di Adobe Xd",
+                          "How to prototyping?",
                           style: TextStyle(
                             //backgroundColor: Colors.blue,
                             fontSize: 16,
