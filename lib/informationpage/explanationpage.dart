@@ -33,7 +33,7 @@ class ExplanationPage extends StatelessWidget {
                           width: 25,
                         ),
                         Text(
-                          "Explanation Tools",
+                          "Penjelasan Tools",
                           style: TextStyle(
                             //backgroundColor: Colors.blue,
                             fontSize: 20,
@@ -47,7 +47,7 @@ class ExplanationPage extends StatelessWidget {
                       height: 20,
                     ),
                     Text(
-                      "4 Course",
+                      "5 Vidio",
                       style: TextStyle(
                           fontSize: 15,
                           color: Colors.black,
@@ -57,7 +57,7 @@ class ExplanationPage extends StatelessWidget {
                       height: 5,
                     ),
                     Text(
-                      "You will learn Adobe XD, Design, Tools, etc.",
+                      "Anda akan mempelajari Adobe XD, \nDesain, dan Tools",
                       style: TextStyle(fontSize: 15, color: Colors.black),
                     ),
                   ],
@@ -68,7 +68,7 @@ class ExplanationPage extends StatelessWidget {
               height: 30,
             ),
             Text(
-              'Course Content',
+              'Vidio Pelatihan',
               style: TextStyle(
                   fontSize: 15, height: 1.3, fontWeight: FontWeight.w700),
             ),
@@ -85,8 +85,8 @@ class ExplanationPage extends StatelessWidget {
                       children: [
                         Content(
                           number: "01",
-                          contenttitle: "The reason why we use Adobe XD",
-                          time: "05:00",
+                          contenttitle: "Alasan mengapa kami menggunakan Adobe XD",
+                          time: "02:31",
                           contentpage: Exp1(),
                         ),
                         SizedBox(
@@ -94,8 +94,8 @@ class ExplanationPage extends StatelessWidget {
                         ),
                         Content(
                           number: "02",
-                          contenttitle: "Design : Icon, Text, Color",
-                          time: "03:30",
+                          contenttitle: "Tools Adobe XD",
+                          time: "15:48",
                           contentpage: Exp2(),
                         ),
                         SizedBox(
@@ -103,8 +103,8 @@ class ExplanationPage extends StatelessWidget {
                         ),
                         Content(
                           number: "03",
-                          contenttitle: "Adobe Tools",
-                          time: "07:29",
+                          contenttitle: "Desain: Ikon, Teks, Warna",
+                          time: "07:08",
                           contentpage: Exp3(),
                         ),
                         SizedBox(
@@ -112,8 +112,8 @@ class ExplanationPage extends StatelessWidget {
                         ),
                         Content(
                           number: "04",
-                          contenttitle: "Tips design",
-                          time: "09:05",
+                          contenttitle: "Tips desain",
+                          time: "09:18",
                           contentpage: Exp4(),
                         ),
                         SizedBox(
@@ -121,8 +121,8 @@ class ExplanationPage extends StatelessWidget {
                         ),
                         Content(
                           number: "05",
-                          contenttitle: "How to Prototyping?",
-                          time: "09:05",
+                          contenttitle: "Bagaimana Prototyping?",
+                          time: "04:17",
                           contentpage: Exp5(),
                         ),
                       ],

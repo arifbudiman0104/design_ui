@@ -42,7 +42,7 @@ class _PracticeState extends State<Practice> {
                           width: 25,
                         ),
                         Text(
-                          "Follow the step carefully",
+                          "Ikuti langkahnya dengan hati-hati",
                           style: TextStyle(
                             //backgroundColor: Colors.blue,
                             fontSize: 16,
@@ -76,7 +76,7 @@ class _PracticeState extends State<Practice> {
                     SizedBox(
                       height: 10,
                     ),
-                    Text("Follow the step carefully"),
+                    Text("Ikuti langkahnya dengan hati-hati"),
                   ],
                 ),
               ),
