@@ -77,25 +77,25 @@ class Homepage extends StatelessWidget {
                         ),
                         SizedBox(height: 20),
                         Information(
-                          informationtitle: 'Explanation Tools',
-                          totalcourse: '4 course',
+                          informationtitle: 'Penjelasaan Tools',
+                          totalcourse: '5 Vidio',
                           description:
-                              'You will learn Adobe XD, design, tools, etc.',
+                              'Anda akan mempelajari Adobe XD, Desain, dan tools',
                           informationpage: ExplanationPage(),
                         ),
                         SizedBox(height: 20),
                         Information(
-                          informationtitle: 'Practicing',
-                          totalcourse: '1 course',
+                          informationtitle: 'Praktik',
+                          totalcourse: '1 Vidio',
                           description:
-                              'You will pcartice and follow the step from the video',
+                              'Anda akan praktik dan mengikuti langkah-langkah dari vidio',
                           informationpage: PracticingPage(),
                         ),
                         SizedBox(height: 20),
                         Information(
-                          informationtitle: 'Upload',
-                          totalcourse: '1 course',
-                          description: 'You will upload the project here',
+                          informationtitle: 'Unggah',
+                          totalcourse: '',
+                          description: 'Anda akan mengunggah project di sini',
                           informationpage: UploadPage(),
                         )
                       ],
