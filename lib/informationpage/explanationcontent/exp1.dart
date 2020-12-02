@@ -42,7 +42,7 @@ class _Exp1State extends State<Exp1> {
                           width: 25,
                         ),
                         Text(
-                          "The reason why we use Adobe XD",
+                          "Alasan mengapa kami menggunakan Adobe XD",
                           style: TextStyle(
                             //backgroundColor: Colors.blue,
                             fontSize: 16,
@@ -76,7 +76,7 @@ class _Exp1State extends State<Exp1> {
                     SizedBox(
                       height: 10,
                     ),
-                    Text("The reason why we use Adobe XD"),
+                    Text("Alasan mengapa kami menggunakan Adobe XD"),
                   ],
                 ),
               ),

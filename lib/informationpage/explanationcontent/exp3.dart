@@ -42,7 +42,7 @@ class _Exp3State extends State<Exp3> {
                           width: 25,
                         ),
                         Text(
-                          "Design: Icon, Text, Color",
+                          "Desain: Ikon, Teks, Warna",
                           style: TextStyle(
                             //backgroundColor: Colors.blue,
                             fontSize: 16,

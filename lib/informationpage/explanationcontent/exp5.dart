@@ -42,7 +42,7 @@ class _Exp5State extends State<Exp5> {
                           width: 25,
                         ),
                         Text(
-                          "How to prototyping?",
+                          "Bagaimana Prototyping?",
                           style: TextStyle(
                             //backgroundColor: Colors.blue,
                             fontSize: 16,
@@ -76,7 +76,7 @@ class _Exp5State extends State<Exp5> {
                     SizedBox(
                       height: 10,
                     ),
-                    Text("Tips Design"),
+                    Text("Bagaimana Prototyping?"),
                   ],
                 ),
               ),

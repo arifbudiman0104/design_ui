@@ -30,7 +30,7 @@ class UploadPage extends StatelessWidget {
                           width: 25,
                         ),
                         Text(
-                          "Upload",
+                          "Unggah",
                           style: TextStyle(
                             //backgroundColor: Colors.blue,
                             fontSize: 20,
@@ -44,7 +44,7 @@ class UploadPage extends StatelessWidget {
                       height: 20,
                     ),
                     Text(
-                      "1 Course",
+                      "1 Vidio",
                       style: TextStyle(
                           fontSize: 15,
                           color: Colors.black,
@@ -54,7 +54,7 @@ class UploadPage extends StatelessWidget {
                       height: 5,
                     ),
                     Text(
-                      "Upload your project",
+                      "Unggah project anda",
                       style: TextStyle(fontSize: 15, color: Colors.black),
                     ),
                   ],
@@ -65,7 +65,7 @@ class UploadPage extends StatelessWidget {
               height: 30,
             ),
             Text(
-              'Course Content',
+              'Link Project',
               style: TextStyle(
                   fontSize: 15, height: 1.3, fontWeight: FontWeight.w700),
             ),
@@ -82,7 +82,7 @@ class UploadPage extends StatelessWidget {
                       children: [
                         Content(
                           number: "01",
-                          contenttitle: "Follow the step carefully",
+                          contenttitle: "Unggah link project anda disini",
                           time: "05:00",
                           contentpage: Practice(),
                         ),
