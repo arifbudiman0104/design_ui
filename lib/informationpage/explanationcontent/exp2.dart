@@ -76,7 +76,13 @@ class _Exp2State extends State<Exp2> {
                     SizedBox(
                       height: 10,
                     ),
-                    Text("Design: Icon:Icon, Text, Color"),
+                    Text(
+                      "Di bagian ini akan dijelaskan mengenai tool-tool yang  di gunakan di dalam adobe xd dan propertis nya secara merinci. Tool-tool ini adalah informasi inti untuk mendesign UI aplikasi kalian dan akan sangat membantu untuk memulai belajar mendesign menggunakan Adobe Xd",
+                      textAlign: TextAlign.justify,
+                      style: TextStyle(
+                        fontSize: 16,
+                      ),
+                    ),
                   ],
                 ),
               ),

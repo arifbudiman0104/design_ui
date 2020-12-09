@@ -43,7 +43,7 @@ class _PracticeState extends State<Practice> {
                           width: 25,
                         ),
                         Text(
-                          "Ikuti langkahnya dengan hati-hati",
+                          "Ikuti langkahnya dengan teliti",
                           style: TextStyle(
                             //backgroundColor: Colors.blue,
                             fontSize: 16,
@@ -77,7 +77,7 @@ class _PracticeState extends State<Practice> {
                     SizedBox(
                       height: 10,
                     ),
-                    Text("Ikuti langkahnya dengan hati-hati"),
+                    Text("Ikuti langkahnya dengan teliti"),
                     RaisedButton(
                       onPressed: _launchURL,
                       child: Text('Download file yang diperlukan'),

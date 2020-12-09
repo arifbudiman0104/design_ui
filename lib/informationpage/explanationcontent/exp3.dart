@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 class Exp3 extends StatefulWidget {
@@ -76,7 +77,23 @@ class _Exp3State extends State<Exp3> {
                     SizedBox(
                       height: 10,
                     ),
-                    Text("Adobe Tools"),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      children: [
+                        RaisedButton(
+                          onPressed: _launchURL,
+                          child: Text('Teks'),
+                        ),
+                        RaisedButton(
+                          onPressed: _launchURL1,
+                          child: Text('Ikon'),
+                        ),
+                        RaisedButton(
+                          onPressed: _launchURL2,
+                          child: Text('Warna'),
+                        ),
+                      ],
+                    ),
                   ],
                 ),
               ),
@@ -85,5 +102,34 @@ class _Exp3State extends State<Exp3> {
         ),
       ),
     );
+  }
+}
+
+_launchURL() async {
+  const url =
+      'https://material.io/design/typography/the-type-system.html#type-scale';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
+  }
+}
+
+_launchURL1() async {
+  const url = 'https://material.io/resources/icons/?style=sharp';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
+  }
+}
+
+_launchURL2() async {
+  const url =
+      'https://material.io/design/color/the-color-system.html#tools-for-picking-colors';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
   }
 }

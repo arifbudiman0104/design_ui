@@ -76,7 +76,13 @@ class _Exp5State extends State<Exp5> {
                     SizedBox(
                       height: 10,
                     ),
-                    Text("Bagaimana Prototyping?"),
+                    Text(
+                      "Cara melakukan prototype di Adobe XD : \n1.	Download applikasi di HP  \n2.	Login dengan akun yang sama yang di pakai laptop/pc \n3. Upload di cloud adobe \n4.	Refresh aplikasi di HP untuk mendapatkan file yang ada di cloud \n5. Buka file yang diinginkan",
+                      textAlign: TextAlign.justify,
+                      style: TextStyle(
+                        fontSize: 16,
+                      ),
+                    ),
                   ],
                 ),
               ),
