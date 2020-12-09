@@ -1,5 +1,6 @@
 import 'package:design_ui/widget/content.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import 'practicingcontent/practice.dart';
 
@@ -65,7 +66,7 @@ class UploadPage extends StatelessWidget {
               height: 30,
             ),
             Text(
-              'Link Project',
+              'Unggah Projek akhir adobe xd anda disini',
               style: TextStyle(
                   fontSize: 15, height: 1.3, fontWeight: FontWeight.w700),
             ),
@@ -80,11 +81,15 @@ class UploadPage extends StatelessWidget {
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Content(
-                          number: "01",
-                          contenttitle: "Unggah link project anda disini",
-                          time: "05:00",
-                          contentpage: Practice(),
+                        // Content(
+                        //   number: "01",
+                        //   contenttitle: "Unggah link project anda disini",
+                        //   time: "05:00",
+                        //   contentpage: Practice(),
+                        // ),
+                        RaisedButton(
+                          onPressed: _launchURL,
+                          child: Text('Upload'),
                         ),
                       ],
                     ),
@@ -96,5 +101,15 @@ class UploadPage extends StatelessWidget {
         ),
       ),
     );
+  }
+}
+
+_launchURL() async {
+  const url =
+      'https://umyac-my.sharepoint.com/:f:/g/personal/arif_budiman_ft18_mail_umy_ac_id/EnfTO_qRENRHpkXABmdxpmMBsEUBBYGzOOIvrW_svIr1ZQ?e=ARHGTi';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
   }
 }

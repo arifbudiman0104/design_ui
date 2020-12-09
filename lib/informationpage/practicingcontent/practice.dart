@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 class Practice extends StatefulWidget {
@@ -77,6 +78,10 @@ class _PracticeState extends State<Practice> {
                       height: 10,
                     ),
                     Text("Ikuti langkahnya dengan hati-hati"),
+                    RaisedButton(
+                      onPressed: _launchURL,
+                      child: Text('Download file yang diperlukan'),
+                    ),
                   ],
                 ),
               ),
@@ -85,5 +90,15 @@ class _PracticeState extends State<Practice> {
         ),
       ),
     );
+  }
+}
+
+_launchURL() async {
+  const url =
+      'https://umyac-my.sharepoint.com/:u:/g/personal/arif_budiman_ft18_mail_umy_ac_id/EfXm7EUuXkdApf3cW8u8RWgB5DEydEsdwq42TKxC5tZUMA?e=deEyoX';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
   }
 }
