@@ -42,7 +42,7 @@ class _Exp4State extends State<Exp4> {
                           width: 25,
                         ),
                         Text(
-                          "Tips Design",
+                          "Tips Desain",
                           style: TextStyle(
                             //backgroundColor: Colors.blue,
                             fontSize: 16,
@@ -76,7 +76,7 @@ class _Exp4State extends State<Exp4> {
                     SizedBox(
                       height: 10,
                     ),
-                    Text("Tips Design"),
+                    Text("Tips Desain"),
                   ],
                 ),
               ),

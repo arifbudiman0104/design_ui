@@ -35,7 +35,7 @@ class IntroductionPage extends StatelessWidget {
                           width: 25,
                         ),
                         Text(
-                          "Introduction",
+                          "Pengantar",
                           style: TextStyle(
                             //backgroundColor: Colors.blue,
                             fontSize: 20,
@@ -49,7 +49,7 @@ class IntroductionPage extends StatelessWidget {
                       height: 20,
                     ),
                     Text(
-                      "7 Course",
+                      "5 Vidio Materi",
                       style: TextStyle(
                           fontSize: 15,
                           color: Colors.black,
@@ -59,7 +59,7 @@ class IntroductionPage extends StatelessWidget {
                       height: 5,
                     ),
                     Text(
-                      "You will learn about UI, the purpose UI \nDesign, how to design, etc.",
+                      "Anda akan belajar tentang UI, \ntujuan Desain UI, cara mendesain",
                       style: TextStyle(fontSize: 15, color: Colors.black),
                     ),
                   ],
@@ -70,7 +70,7 @@ class IntroductionPage extends StatelessWidget {
               height: 30,
             ),
             Text(
-              'Course Content',
+              'Vidio Pelatihan',
               style: TextStyle(
                   fontSize: 15, height: 1.3, fontWeight: FontWeight.w700),
             ),
@@ -87,7 +87,7 @@ class IntroductionPage extends StatelessWidget {
                       children: [
                         Content(
                           number: "01",
-                          contenttitle: "What is UI?",
+                          contenttitle: "Apa itu UI?",
                           time: "02:18",
                           contentpage: Intro1(),
                         ),
@@ -96,8 +96,8 @@ class IntroductionPage extends StatelessWidget {
                         ),
                         Content(
                           number: "02",
-                          contenttitle: "The purpose of UI",
-                          time: "03:30",
+                          contenttitle: "Apakah tujuan desain UI?",
+                          time: "01:16",
                           contentpage: Intro2(),
                         ),
                         SizedBox(
@@ -105,8 +105,8 @@ class IntroductionPage extends StatelessWidget {
                         ),
                         Content(
                           number: "03",
-                          contenttitle: "How to design?",
-                          time: "07:29",
+                          contenttitle: "Aplikasi apa saja yang bisa digunakan untuk mendesain UI?",
+                          time: "01:40",
                           contentpage: Intro3(),
                         ),
                         SizedBox(
@@ -114,8 +114,8 @@ class IntroductionPage extends StatelessWidget {
                         ),
                         Content(
                           number: "04",
-                          contenttitle: "What is the guide?",
-                          time: "09:05",
+                          contenttitle: "Panduan yang bisa dipakai dalam mendesain mobile UI?",
+                          time: "01:20",
                           contentpage: Intro4(),
                         ),
                         SizedBox(
@@ -123,8 +123,8 @@ class IntroductionPage extends StatelessWidget {
                         ),
                         Content(
                           number: "05",
-                          contenttitle: "What is prototyping?",
-                          time: "05:15",
+                          contenttitle: "Apa itu prototyping?",
+                          time: "01:26",
                           contentpage: Intro5(),
                         ),
                         SizedBox(

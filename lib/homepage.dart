@@ -53,7 +53,7 @@ class Homepage extends StatelessWidget {
               height: 30,
             ),
             Text(
-              'Lets learn about UI Design',
+              'Mari pelajari tentang Desain UI',
               style: TextStyle(
                   fontSize: 15, height: 1.3, fontWeight: FontWeight.w700),
             ),
@@ -69,33 +69,33 @@ class Homepage extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Information(
-                          informationtitle: 'Introduction',
-                          totalcourse: '7 course',
+                          informationtitle: 'Pengantar',
+                          totalcourse: '5 Vidio',
                           description:
-                              'You will learn about UI, the purpose of UI Design, how to design',
+                              'Anda akan belajar tentang UI, tujuan Desain UI, cara mendesain',
                           informationpage: IntroductionPage(),
                         ),
                         SizedBox(height: 20),
                         Information(
-                          informationtitle: 'Explanation Tools',
-                          totalcourse: '4 course',
+                          informationtitle: 'Penjelasaan Tools',
+                          totalcourse: '5 Vidio',
                           description:
-                              'You will learn Adobe XD, design, tools, etc.',
+                              'Anda akan mempelajari Adobe XD, Desain, dan tools',
                           informationpage: ExplanationPage(),
                         ),
                         SizedBox(height: 20),
                         Information(
-                          informationtitle: 'Practicing',
-                          totalcourse: '1 course',
+                          informationtitle: 'Praktik',
+                          totalcourse: '1 Vidio',
                           description:
-                              'You will pcartice and follow the step from the video',
+                              'Anda akan praktik dan mengikuti langkah-langkah dari vidio',
                           informationpage: PracticingPage(),
                         ),
                         SizedBox(height: 20),
                         Information(
-                          informationtitle: 'Upload',
-                          totalcourse: '1 course',
-                          description: 'You will upload the project here',
+                          informationtitle: 'Unggah',
+                          totalcourse: '',
+                          description: 'Anda akan mengunggah project di sini',
                           informationpage: UploadPage(),
                         )
                       ],
