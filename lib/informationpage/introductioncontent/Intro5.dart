@@ -76,7 +76,13 @@ class _Intro5State extends State<Intro5> {
                     SizedBox(
                       height: 10,
                     ),
-                    Text("Apa itu prototyping?"),
+                    Text(
+                      "Prototyping adalah Sebuah perkiraan dari sebuah pengalaman yang dapat mensimulasikan seperti apa penggunaan suatu produk layanan yang diamati",
+                      textAlign: TextAlign.justify,
+                      style: TextStyle(
+                        fontSize: 16,
+                      ),
+                    ),
                   ],
                 ),
               ),

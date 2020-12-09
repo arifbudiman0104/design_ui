@@ -76,7 +76,13 @@ class _Intro1State extends State<Intro1> {
                     SizedBox(
                       height: 10,
                     ),
-                    Text("Apa itu UI?"),
+                    Text(
+                      "User interface adalah bagian visual dari website, aplikasi software atau device hardware yang memastikan bagaimana seorang user berinteraksi dengan aplikasi atau website tersebut serta bagaimana informasi ditampilan di layarnya.",
+                      textAlign: TextAlign.justify,
+                      style: TextStyle(
+                        fontSize: 16,
+                      ),
+                    ),
                   ],
                 ),
               ),
