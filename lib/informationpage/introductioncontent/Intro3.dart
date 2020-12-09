@@ -76,7 +76,13 @@ class _Intro3State extends State<Intro3> {
                     SizedBox(
                       height: 10,
                     ),
-                    Text("Aplikasi apa saja yang bisa \ndigunakan untuk \nmendesain UI?"),
+                    Text(
+                      "Berikut ini adalah beberapa aplikasi yang digunakan untuk mendesain UI: \n1. Sketch \n2. Figma \n3. In Vision Studio \n4. Framer X \n5.Adobe XD",
+                      textAlign: TextAlign.justify,
+                      style: TextStyle(
+                        fontSize: 16,
+                      ),
+                    ),
                   ],
                 ),
               ),

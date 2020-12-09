@@ -76,7 +76,13 @@ class _Intro4State extends State<Intro4> {
                     SizedBox(
                       height: 10,
                     ),
-                    Text("Panduan yang bisa dipakai \ndalam mendesain mobile UI?"),
+                    Text(
+                      "Panduan yang bisa dipakai untuk mendesain UI: \n1. Cupertino (IOS) \n2. Material Desain (Android)",
+                      textAlign: TextAlign.justify,
+                      style: TextStyle(
+                        fontSize: 16,
+                      ),
+                    ),
                   ],
                 ),
               ),
