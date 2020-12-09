@@ -6,7 +6,6 @@ import 'introductioncontent/Intro1.dart';
 import 'introductioncontent/Intro2.dart';
 import 'introductioncontent/Intro3.dart';
 import 'introductioncontent/Intro5.dart';
-import 'introductioncontent/Intro6.dart';
 
 class IntroductionPage extends StatelessWidget {
   @override
@@ -96,7 +95,7 @@ class IntroductionPage extends StatelessWidget {
                         ),
                         Content(
                           number: "02",
-                          contenttitle: "Apakah tujuan desain UI?",
+                          contenttitle: "Apakah tujuan UI?",
                           time: "01:16",
                           contentpage: Intro2(),
                         ),

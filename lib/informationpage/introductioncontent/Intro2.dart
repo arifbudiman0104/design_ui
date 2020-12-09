@@ -42,7 +42,7 @@ class _Intro2State extends State<Intro2> {
                           width: 25,
                         ),
                         Text(
-                          "Apakah tujuan desain UI?",
+                          "Apakah tujuan UI?",
                           style: TextStyle(
                             //backgroundColor: Colors.blue,
                             fontSize: 20,
@@ -76,7 +76,13 @@ class _Intro2State extends State<Intro2> {
                     SizedBox(
                       height: 10,
                     ),
-                    Text("Apakah tujuan desain UI?"),
+                    Text(
+                      "Tujuan dari user interface adalah untuk meningkatkan usability dan tentunya user experience.",
+                      textAlign: TextAlign.justify,
+                      style: TextStyle(
+                        fontSize: 16,
+                      ),
+                    ),
                   ],
                 ),
               ),
