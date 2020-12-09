@@ -87,9 +87,14 @@ class UploadPage extends StatelessWidget {
                         //   time: "05:00",
                         //   contentpage: Practice(),
                         // ),
-                        RaisedButton(
-                          onPressed: _launchURL,
-                          child: Text('Upload'),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            RaisedButton(
+                              onPressed: _launchURL,
+                              child: Text('Unggah'),
+                            ),
+                          ],
                         ),
                       ],
                     ),

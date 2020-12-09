@@ -76,7 +76,13 @@ class _Exp4State extends State<Exp4> {
                     SizedBox(
                       height: 10,
                     ),
-                    Text("Tips Desain"),
+                    Text(
+                      "Berikut ini Shortcut yang sering digunakan :\n1.	V = Select\n2.	R = Rectangle\n3.	E = Ellipse\n4.	L = Line\n5.	P = Pen\n6.	T = Text\n7.	A = Artboard\n8.	Z = Zoom Mode",
+                      textAlign: TextAlign.left,
+                      style: TextStyle(
+                        fontSize: 16,
+                      ),
+                    ),
                   ],
                 ),
               ),

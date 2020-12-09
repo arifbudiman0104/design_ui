@@ -82,7 +82,7 @@ class PracticingPage extends StatelessWidget {
                       children: [
                         Content(
                           number: "01",
-                          contenttitle: "Ikuti langkahnya dengan hati-hati",
+                          contenttitle: "Ikuti langkahnya dengan teliti",
                           time: "63:34",
                           contentpage: Practice(),
                         ),

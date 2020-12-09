@@ -42,7 +42,7 @@ class _Exp1State extends State<Exp1> {
                           width: 25,
                         ),
                         Text(
-                          "Alasan mengapa kami menggunakan Adobe XD",
+                          "Alasan mengapa kami \nmenggunakan Adobe XD",
                           style: TextStyle(
                             //backgroundColor: Colors.blue,
                             fontSize: 16,
@@ -76,7 +76,13 @@ class _Exp1State extends State<Exp1> {
                     SizedBox(
                       height: 10,
                     ),
-                    Text("Alasan mengapa kami menggunakan Adobe XD"),
+                    Text(
+                      "Di bagian ini akan kami jelaskan tentang alasan kami menggunakan adobe xd, di point ini akan kami jelaskan mengenai : \n1.	Aplikasinya dapat digunakan dengan gratis \n2.	Multiplatform \n3.	Plugin \n4.	Prototyping dapat dilakukan dengan mudah \n5.	Populer di kalangan designer UI",
+                      textAlign: TextAlign.justify,
+                      style: TextStyle(
+                        fontSize: 16,
+                      ),
+                    ),
                   ],
                 ),
               ),
