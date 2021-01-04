@@ -52,11 +52,9 @@ class Homepage extends StatelessWidget {
             SizedBox(
               height: 30,
             ),
-            Text(
-              'Mari pelajari tentang Desain UI',
-              style: TextStyle(
-                  fontSize: 15, height: 1.3, fontWeight: FontWeight.w700),
-            ),
+            Text('Mari pelajari tentang Desain UI',
+                style: TextStyle(
+                    fontSize: 15, height: 1.3, fontWeight: FontWeight.w700)),
             SizedBox(
               height: 20,
             ),
