@@ -77,10 +77,10 @@ class _PracticeState extends State<Practice> {
                     SizedBox(
                       height: 10,
                     ),
-                    Text("Ikuti langkahnya dengan teliti"),
+                    Text("Unduh file yang diperlukan"),
                     RaisedButton(
                       onPressed: _launchURL,
-                      child: Text('Download file yang diperlukan'),
+                      child: Text('Unduh'),
                     ),
                   ],
                 ),
