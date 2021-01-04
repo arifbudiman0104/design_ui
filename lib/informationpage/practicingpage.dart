@@ -82,8 +82,8 @@ class PracticingPage extends StatelessWidget {
                       children: [
                         Content(
                           number: "01",
-                          contenttitle: "Ikuti langkahnya dengan teliti",
-                          time: "63:34",
+                          contenttitle: "Praktik Adobe XD",
+                          time: "58:00",
                           contentpage: Practice(),
                         ),
                       ],

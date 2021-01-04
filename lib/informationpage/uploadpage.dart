@@ -45,16 +45,6 @@ class UploadPage extends StatelessWidget {
                       height: 20,
                     ),
                     Text(
-                      "1 Vidio",
-                      style: TextStyle(
-                          fontSize: 15,
-                          color: Colors.black,
-                          fontWeight: FontWeight.bold),
-                    ),
-                    SizedBox(
-                      height: 5,
-                    ),
-                    Text(
                       "Unggah project anda",
                       style: TextStyle(fontSize: 15, color: Colors.black),
                     ),
